@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Site</title>
+    <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="/util/css/all.css">
+    <script defer src="/util/js/all.js"></script>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header-bar mb-3">
+        <div class="container d-flex flex-column flex-md-row align-items-center p-3">
+            <h4 class="my-0 mr-md-auto font-weight-normal"><a href="/" class="text-white">Maxx Social Site</a></h4>
+
+            
+            <div class="flex-row my-3 my-md-0">
+                <a href="#" class="text-white mr-2 header-search-icon" title="Search" data-toggle="tooltip"
+                    data-placement="bottom"><i class="fas fa-search"></i></a>
+                <span class="text-white mr-2 header-chat-icon" title="Chat" data-toggle="tooltip"
+                    data-placement="bottom"><i class="fas fa-comment"></i></span>
+                <a href="#" class="mr-2"><img title="My Profile" data-toggle="tooltip" data-placement="bottom"
+                        style="width: 32px; height: 32px; border-radius: 16px;" src="<%= user.avatar %>"></a>
+                <a class="btn btn-sm btn-success mr-2" href="/create-post">Create Post</a>
+                <form action="/logout" method="POST" class="d-inline">
+                    <button class="btn btn-sm btn-secondary">Sign Out</button>
+                </form>
+            </div>
+        </div>
+    </header>

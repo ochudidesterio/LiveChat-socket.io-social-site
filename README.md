@@ -38,3 +38,34 @@ This is a social site where you can follow, post and chat with others
 
 - On windows you will have to use full path to the mongod.exe and mongo.exe to check mongodb version, if you have not set MongoDB Path.
 - But if MongoDb Path is being set, you can simply use the mongod and mongo command.
+
+# Running the Application
+
+- On the terminal of your text editor type the command below to start your node application server
+
+``` 
+     npm run watch
+     
+```
+
+# Database Connection
+
+- For the locally installed database use:
+
+```
+    mongodb://localhost/SocialSite
+    
+```
+Where SocialSite is the name of your database.
+
+- If you are using MongoDB Atlas then your connection string should be like:
+
+```
+    mongodb+srv://<username>:<password>@cluster0.ivn4s.mongodb.net/<database>?retryWrites=true&w=majority
+    
+```
+Where by username,password and database are your username when creating MongoDB Atlas account, your password when creating your MongoDB atlas account and database name for your collections respectively. For more information about connecting to MongoDB Atlas follow this https://docs.mongodb.com/guides/server/drivers/ 
+
+
+
+

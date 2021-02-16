@@ -1,13 +1,25 @@
+## Table of Contents
+
+
+- [LiveChat-socket.io-social-site](#liveChat-socket.io-social-site)
+- [Video Example](#video-example)
+- [Getting Started](#getting-started)
+- [Verify Installation](#verify-installation)
+- [Running the Application](#running-the-application)
+- [Database Connection](#database-connection)
+- [Creating Indexes](#creating-indexes)
+- [LICENSE](#license)
+
 # LiveChat-socket.io-social-site
 
 This is a social site where you can follow, post and chat with others
 
-# Video Exampple
+# Video Example
 
 Video of the code running
 
 <a href="https://www.youtube.com/watch?v=Q6p6ijk625k
-" target="_blank"><p align="center"><img src="./Assets/WP_20171107_17_07_56_Pro.jpg" 
+" target="_blank"><p align="center"><img src="https://github.com/ochudidesterio/LiveChat-socket.io-social-site/blob/master/You%20tube.png?raw=true" 
 alt="social site demo"/></p></a>
 
 

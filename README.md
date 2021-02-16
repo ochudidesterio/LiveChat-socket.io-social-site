@@ -104,6 +104,10 @@ Where by username,password and database are your username when creating MongoDB 
     - repeat the above process for body
     - click review then confirm
     
+    
+   # LICENSE 
+   - [MIT](https://github.com/ochudidesterio/LiveChat-socket.io-social-site/blob/master/LICENSE)
+    
 
 
 

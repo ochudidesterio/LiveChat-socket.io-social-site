@@ -2,6 +2,15 @@
 
 This is a social site where you can follow, post and chat with others
 
+# Video Exampple
+
+Video of the code running
+
+<a href="https://www.youtube.com/watch?v=Q6p6ijk625k
+" target="_blank"><p align="center"><img src="./Assets/WP_20171107_17_07_56_Pro.jpg" 
+alt="social site demo"/></p></a>
+
+
 # Getting Started
 
 - Download and Install Node.js from  https://nodejs.org/en/download/
@@ -65,6 +74,24 @@ Where SocialSite is the name of your database.
     
 ```
 Where by username,password and database are your username when creating MongoDB Atlas account, your password when creating your MongoDB atlas account and database name for your collections respectively. For more information about connecting to MongoDB Atlas follow this https://docs.mongodb.com/guides/server/drivers/ 
+
+## Creating Indexes
+
+- This project has a live search feature that uses indexes to querry the database.
+- On locally installed database create the indexes on Post Document as follows
+
+```
+    db.posts.createIndex( { "title": "text", "body": "text" } )
+    
+```
+- On MongoDB Atlas 
+    - click on the documents name
+    - navigate to indexes tab 
+    - click on create indexes
+    - replace field with title and type with text
+    - repeat the above process for body
+    - click review then confirm
+    
 
 
 
